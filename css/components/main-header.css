@@ -1,0 +1,77 @@
+.main-header {
+  position: absolute;
+  display: flex;
+  width: 84vw;
+  padding: 5vh 8vw 5vh;
+  justify-content: space-between;
+  color: var(--color-zero);
+}
+
+.main-header .logo {
+  font-size: 1.5em;
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
+}
+
+.main-header .menu{
+  display: flex;
+  line-height: 1.5em;
+  flex-direction: row;
+}
+
+.main-header .item {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-header .item:not(:last-child){
+  margin-right: 2vw;
+}
+
+.main-header .item.-toggle {
+  display: none;
+  width: 1em;
+  height: 1em;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-header {
+    width: 92vw;
+    padding: 5vh 4vw 5vh;
+  }
+  .main-header .logo {
+    font-size: 1.2em;
+    letter-spacing: 0.2vw;
+  }
+  .main-header .menu {
+    display: none;
+    line-height: 1.2em;
+    flex-direction: column;
+  }
+  .main-header .item {
+    padding: 1vh 0 1vh;
+  }
+  .main-header .item:not(:last-child) {
+    margin-right: 0vw;
+  }
+  .main-header .item.-toggle {
+    display: initial;
+    padding-top: 0.25em;
+    z-index: 100;
+  }
+  .main-header .menu.-show {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+  }
+}
