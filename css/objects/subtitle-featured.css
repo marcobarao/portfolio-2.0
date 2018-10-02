@@ -1,0 +1,13 @@
+.subtitle-featured {
+  color: var(--color-zero);
+  opacity: 0.8;
+  font-size: 1em;
+  letter-spacing: 0.2vh;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 560px) {
+  .subtitle-featured {
+    font-size: 0.8em;
+  }
+}

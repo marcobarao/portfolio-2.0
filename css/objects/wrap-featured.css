@@ -1,8 +1,16 @@
 .wrap-featured {
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
   width: 100vw;
-  height: 80vh;
-  background-image: url(../../img/background-dark.png);
+  height: 100vh;
+  background-image: url(../../img/background-dark02.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; 
+  background-position: center center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
 }
