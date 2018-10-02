@@ -2,8 +2,8 @@
   display: flex;
   flex: 1 0 auto;
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  height: 105vh;
+  margin-left: -1vw;
   background-image: url(../../img/background-dark02.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,6 +11,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transform: translateZ(-1px) scale(2);
+  transform: translateZ(-5px) scale(6);
   z-index: -1;
 }
