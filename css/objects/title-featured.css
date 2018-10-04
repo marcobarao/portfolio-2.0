@@ -1,19 +1,11 @@
 .title-featured {
   color: var(--color-zero);
+  font-size: 1.6em;
   letter-spacing: 0.2vh;
   margin: 5vh 0 0 0;
   font-weight: 700;
 }
 
 .title-featured span {
-  font-size: 1.2em;
-}
-
-@media only screen and (max-width: 560px) {
-  .title-featured {
-    font-size: 1.6em;
-  }
-  .title-featured span{
-    font-size: 1.8em;
-  }
+  font-size: 1.3em;
 }

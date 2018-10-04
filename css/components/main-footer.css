@@ -1,0 +1,59 @@
+.main-footer {
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  flex-direction: column;
+  padding: 2em;
+  margin-left: -3vw;
+  background-color: var(--color-off-dark);
+  color: var(--color-zero);
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.main-footer .logo{
+  font-size: 1.2em;
+  letter-spacing: 0.2vw;
+}
+
+.main-footer .social {
+  display: flex;
+  width: 20vw;
+  margin: 3vh;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.main-footer .twitter {
+  width: 16px;
+  height: 16px;
+  text-indent: -9999px;
+  background-image: url('../../img/twitter.svg');
+  background-repeat: no-repeat;
+}
+
+.main-footer .github {
+  width: 16px;
+  height: 16px;
+  text-indent: -9999px;
+  background-image: url('../../img/github.svg');
+  background-repeat: no-repeat;
+}
+
+.main-footer .linkedin {
+  width: 16px;
+  height: 16px;
+  text-indent: -9999px;
+  background-image: url('../../img/linkedin.svg');
+  background-repeat: no-repeat;
+}
+
+.main-footer .copyright {
+  font-size: 0.8em;
+}

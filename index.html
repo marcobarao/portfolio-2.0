@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Marco Barão</title>
   <!-- Importando a fonte -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
   <!-- Importando Settings -->
   <link rel="stylesheet" href="./css/settings/colors.css">
   <!-- Importando Tools -->
@@ -20,10 +20,11 @@
   <link rel="stylesheet" href="./css/objects/title-featured.css">
   <link rel="stylesheet" href="./css/objects/subtitle-featured.css">
   <link rel="stylesheet" href="./css/objects/wrap-main.css">
-  <link rel="stylesheet" href="./css/objects/wrap-works.css">
   <!-- Importando Components -->
   <link rel="stylesheet" href="./css/components/main-header.css">
   <link rel="stylesheet" href="./css/components/svg-featured.css">
+  <link rel="stylesheet" href="./css/components/wrap-works.css">
+  <link rel="stylesheet" href="./css/components/main-footer.css">
   <!-- Importando Trumps -->
 </head>
 <body>
@@ -34,11 +35,9 @@
         <img src="./img/menu.svg" alt="Abrir Menu">
       </a>
       <nav class="menu">
-        <a href="" class="item">Início</a>
         <a href="" class="item">Portfólio</a>
         <a href="" class="item">Sobre</a>
         <a href="" class="item">Contato</a>
-        <a href="" class="item">Resumé</a>
       </nav>
     </header>
     <section class="wrap-featured">
@@ -54,15 +53,25 @@
     <main class="wrap-main">
       <section class="wrap-works">
         <nav class="menu">
-          <a href="" class="item">Todos</a>
+          <a href="" class="item -active">Todos</a>
           <a href="" class="item">Back-end</a>
           <a href="" class="item">Front-end</a>
         </nav>
         <div class="works">
         </div>
       </section>
+      <footer class="main-footer">
+        <h1 class="logo">Marco Barão</h1>
+        <ul class="social">
+          <a href="https://twitter.com/baraodev"><li class="twitter">Twitter</li></a>
+          <a href="https://linkedin.com/marcoabn"><li class="linkedin">LinkedIn</li></a>
+          <a href="https://github.com/marcobarao"><li class="github">GitHub</li></a>
+        </ul>
+        <p class="copyright">Copyright © 2018</p>
+      </footer>
     </main>
   </div>
   <script src="js/components/main-header.js"></script>
+  <script src="js/components/main-works.js"></script>
 </body>
 </html>
